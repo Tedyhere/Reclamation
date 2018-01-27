@@ -6,4 +6,4 @@ mods.calculator.basic.addRecipe(<ore:cobblestone>, <ore:plankWood>, <contenttwea
 mods.calculator.basic.addRecipe(<minecraft:flint>, <sonarcore:reinforcedstoneblock>, <contenttweaker:reinforced_flint>);
 mods.calculator.basic.addRecipe(<ore:blockIron>, <contenttweaker:reinforced_flint>, <contenttweaker:hardened_flint>);
 mods.calculator.basic.addRecipe(<contenttweaker:gravelsand>, <contenttweaker:reinforced_flint>, <ic2:dust:19>);
-mods.calculator.basic.addRecipe(<ore:gravel>, <contenttweaker:reinforced_flint>, <ic2:dust:21>)
+mods.calculator.basic.addRecipe(<ore:gravel>, <contenttweaker:reinforced_flint>, <ic2:dust:21>);
