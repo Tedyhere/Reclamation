@@ -11,6 +11,7 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.Block;
 
 var zsStickReinforced = VanillaFactory.createItem("reinforced_stick");
+
 zsStickReinforced.register();
 //var zsPlanksReinforced = VanillaFactory.createItem("reinforced_planks");
 //zsPlanksReinforced.register();
@@ -18,6 +19,19 @@ var zsFlintReinforced = VanillaFactory.createItem("reinforced_flint");
 zsFlintReinforced.register();
 var zsFlintHardened = VanillaFactory.createItem("hardened_flint");
 zsFlintHardened.register();
+var zsFlintFluxed = VanillaFactory.createItem("fluxed_flint");
+zsFlintFluxed.register();
+
+var zsgoldchunk = VanillaFactory.createItem("gold_chunk");
+zsgoldchunk.register();
+var zsironchunk = VanillaFactory.createItem("iron_chunk");
+zsironchunk.register();
+var zscopperchunk = VanillaFactory.createItem("copper_chunk");
+zscopperchunk.register();
+var zstinchunk = VanillaFactory.createItem("tin_chunk");
+zstinchunk.register();
+var zsaluminumchunk = VanillaFactory.createItem("aluminum_chunk");
+zsaluminumchunk.register();
 //var zsGravelSand = VanillaFactory.createItem("gravelsand");
 //zsGravelSand.register();
 

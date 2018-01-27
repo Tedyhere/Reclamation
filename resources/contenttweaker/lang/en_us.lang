@@ -1,5 +1,11 @@
 item.contenttweaker.reinforced_stick.name=Reinforced Stick
 item.contenttweaker.reinforced_flint.name=Reinforced Flint
 item.contenttweaker.hardened_flint.name=Hardened Flint
+item.contenttweaker.fluxed_flint.name=Fluxed Flint
+item.contenttweaker.iron_chunk.name=Iron Ore Chunk
+item.contenttweaker.copper_chunk.name=Copper Ore Chunk
+item.contenttweaker.gold_chunk.name=Gold Ore Chunk
+item.contenttweaker.tin_chunk.name=Tin Ore Chunk
+item.contenttweaker.aluminum_chunk.name=Aluminum Ore Chunk
 tile.contenttweaker.reinforced_planks.name=Reinforced Planks
 tile.contenttweaker.gravelsand.name=Gravelsand
