@@ -1,0 +1,9 @@
+mods.calculator.basic.addRecipe(<ore:logWood>, <ore:cobblestone>, <minecraft:flint>);
+mods.calculator.basic.addRecipe(<minecraft:flint>, <ore:cobblestone>, <minecraft:gravel>);
+mods.calculator.basic.addRecipe(<ore:gravel>, <minecraft:flint>, <minecraft:sand>);
+mods.calculator.basic.addRecipe(<ore:cobblestone>, <ore:stickWood>, <contenttweaker:reinforced_stick>);
+mods.calculator.basic.addRecipe(<ore:cobblestone>, <ore:plankWood>, <contenttweaker:reinforced_planks>);
+mods.calculator.basic.addRecipe(<minecraft:flint>, <sonarcore:reinforcedstoneblock>, <contenttweaker:reinforced_flint>);
+mods.calculator.basic.addRecipe(<ore:blockIron>, <contenttweaker:reinforced_flint>, <contenttweaker:hardened_flint>);
+mods.calculator.basic.addRecipe(<contenttweaker:gravelsand>, <contenttweaker:reinforced_flint>, <ic2:dust:19>);
+mods.calculator.basic.addRecipe(<ore:gravel>, <contenttweaker:reinforced_flint>, <ic2:dust:21>)
