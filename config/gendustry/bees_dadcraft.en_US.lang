@@ -1,3 +1,8 @@
 gendustry.bees.species.meat=Meat
 gendustry.honeycomb.meat.name=Dripping Meat Comb
 gendustry.honeydrop.meat.name=Meat Filled Honey Drop
+gendustry.bees.species.cobbled=Cobbled
+gendustry.honeycomb.rocky.name=Cobbled Comb
+gendustry.bees.species.sandy=Sandy
+gendustry.honeycomb.sandy.name=Sandy Comb
+item.magicbees.beecomb.te_endearing.name=Endering Comb

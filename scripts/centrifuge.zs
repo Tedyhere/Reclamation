@@ -1,0 +1,2 @@
+mods.forestry.Centrifuge.addRecipe([(<minecraft:cobblestone> * 5) % 100, <forestry:beeswax> % 12], <gendustry:honey_comb:27>, 100);
+mods.forestry.Centrifuge.addRecipe([(<minecraft:sand> * 5) % 100, <forestry:beeswax> % 12], <gendustry:honey_comb:28>, 100);
