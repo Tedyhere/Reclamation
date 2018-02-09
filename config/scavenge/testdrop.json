@@ -1,0 +1,55 @@
+{
+	"drop_pools":
+	[
+		{
+			"name": "leavesTest",
+			"type":
+			{
+					"type": "ore",
+					"name": "treeLeaves"
+			},
+			"properties":
+			[
+				{
+					"type": "consume_block",
+					"chance": 100
+				},
+				{
+					"type": "require_item",
+					"name": "minecraft:stick",
+					"meta": 0,
+					"amount": 1,
+					"required_nbt_tags": []
+				},
+				{
+					"type": "set_rolls",
+					"amount": 4
+				}
+			],
+			"drops":
+			[
+		        {
+          			"type": "item",
+          			"name": "forestry:bee_princess_ge",
+          			"functions": 
+          			[
+            	{
+              		"speciesUid": "forestry.speciesMeadows",
+              		"function": "minecraft:set_species_nbt"
+            	},
+          		{
+          		"properties":
+					{
+						"type": "set_chance",
+						"chance": 75,
+						"max_rolls": 100
+					}
+          			
+        		}
+        	
+      		]
+      	}
+	]
+	}
+	]
+}

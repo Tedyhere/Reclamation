@@ -1,16 +1,33 @@
 //Base Items
+import crafttweaker.item.IItemStack;
 val reinforcedflint = <contenttweaker:reinforced_flint>;
 reinforcedflint.maxDamage = 32;
 val hardenedflint = <contenttweaker:hardened_flint>;
-hardenedflint.maxDamage = 32;
+hardenedflint.maxDamage = 64;
 val fluxedflint = <contenttweaker:fluxed_flint>;
-fluxedflint.maxDamage = 32;
+fluxedflint.maxDamage = 128;
 recipes.addShapeless(<contenttweaker:gravelsand>, [<ore:gravel>, <ore:sand>]);
 recipes.removeShapeless(<sonarcore:reinforcedstoneblock>);
+val dcc = <contenttweaker:double_compressed_cobblestone>;
+val dcg = <contenttweaker:double_compressed_gravel>;
+val dcd = <contenttweaker:double_compressed_dirt>;
+val dcs = <contenttweaker:double_compressed_sand>;
 recipes.addShapeless(<contenttweaker:fluxed_flint>, [<contenttweaker:hardened_flint>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotCopper>, <ore:ingotCopper>]);
 recipes.addShaped(<minecraft:iron_ore>, [[<contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>], [<contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>], [<contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>, <contenttweaker:iron_chunk>]]);
 recipes.addShaped(<thermalfoundation:ore>, [[<contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>], [<contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>], [<contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>, <contenttweaker:copper_chunk>]]);
 recipes.addShaped(<thermalfoundation:ore:1>, [[<contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>], [<contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>], [<contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>, <contenttweaker:tin_chunk>]]);
 recipes.addShaped(<thermalfoundation:ore:4>, [[<contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>], [<contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>], [<contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>, <contenttweaker:aluminum_chunk>]]);
 recipes.addShaped(<minecraft:gold_ore>, [[<contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>], [<contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>], [<contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>, <contenttweaker:gold_chunk>]]);
-
+recipes.addShaped(<contenttweaker:compressed_cobblestone>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<contenttweaker:double_compressed_cobblestone>, [[<contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>], [<contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>], [<contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>, <contenttweaker:compressed_cobblestone>]]);
+recipes.addShaped(<contenttweaker:compressed_gravel>, [[<ore:gravel>, <ore:gravel>, <ore:gravel>], [<ore:gravel>, <ore:gravel>, <ore:gravel>], [<ore:gravel>, <ore:gravel>, <ore:gravel>]]);
+recipes.addShaped(<contenttweaker:double_compressed_gravel>, [[<contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>], [<contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>], [<contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>, <contenttweaker:compressed_gravel>]]);
+recipes.addShaped(<contenttweaker:compressed_dirt>, [[<ore:dirt>, <ore:dirt>, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>]]);
+recipes.addShaped(<contenttweaker:double_compressed_dirt>, [[<contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>], [<contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>], [<contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>, <contenttweaker:compressed_dirt>]]);
+recipes.addShaped(<contenttweaker:compressed_sand>, [[<ore:sand>, <ore:sand>, <ore:sand>], [<ore:sand>, <ore:sand>, <ore:sand>], [<ore:sand>, <ore:sand>, <ore:sand>]]);
+recipes.addShaped(<contenttweaker:double_compressed_sand>, [[<contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>], [<contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>], [<contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>, <contenttweaker:compressed_sand>]]);
+recipes.addShaped(<gendustry:honey_comb:27>, [[dcc, dcc, dcc], [dcc, <forestry:bee_combs>, dcc], [dcc, dcc, dcc]]);
+recipes.addShaped(<gendustry:honey_comb:28>, [[dcs, dcs, dcs], [dcs, <gendustry:honey_comb:27>, dcs], [dcs, dcs, dcs]]);
+recipes.addShaped(<gendustry:honey_comb:29>, [[dcd, dcd, dcd], [dcd, <gendustry:honey_comb:28>, dcd], [dcd, dcd, dcd]]);
+recipes.addShaped(<gendustry:honey_comb:30>, [[<gendustry:honey_comb:27>, <gendustry:honey_comb:27>, <gendustry:honey_comb:27>], [<gendustry:honey_comb:27>, <gendustry:honey_comb:29>, <gendustry:honey_comb:28>], [<gendustry:honey_comb:28>, <gendustry:honey_comb:28>, <gendustry:honey_comb:28>]]);
+<contenttweaker:bushwhacker>.addTooltip(format.yellow("Used to clear brush, leaves, grass. Might yield certain useful items from them."));
