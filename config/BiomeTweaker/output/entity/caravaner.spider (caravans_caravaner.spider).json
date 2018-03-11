@@ -1,0 +1,6 @@
+
+{
+  "Name": "caravaner.spider",
+  "Registry ID": "caravans:caravaner.spider",
+  "Class": "primetoxinz.caravans.common.entity.types.EntitySpiderCaravaneer"
+}

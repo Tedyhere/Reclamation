@@ -18,3 +18,6 @@ tile.contenttweaker.double_compressed_gravel.name=Double Compressed Gravel
 tile.contenttweaker.compressed_sand.name=Compressed Sand
 tile.contenttweaker.double_compressed_sand.name=Double Compressed Sand
 item.contenttweaker.bushwhacker.name=Bushwhacker
+item.contenttweaker.flux.name=Flux
+item.contenttweaker.lead_chunk.name=Lead Ore Chunk
+item.contenttweaker.silver_chunk.name=Silver Ore Chunk

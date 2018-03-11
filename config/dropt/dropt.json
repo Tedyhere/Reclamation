@@ -4,19 +4,19 @@
       "match": {
         "blocks": {
           "blocks": [
-            "biomesoplenty:plant_0:13",
-            "biomesoplenty:plant_0:14"
+            "biomesoplenty:plant_0:14",
+            "biomesoplenty:plant_0:13"
           ]
         },
         "harvester": {
           "heldItemMainHand": {
             "items": [
-              "contenttweaker:bushwhacker"
+              "contenttweaker:bushwhacker:*"
             ]
           }
         }
       },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "replaceStrategy": "ADD",
       "drops": [
         {
           "selector": {
@@ -34,7 +34,49 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 5
+
+            }
+          },
+         "item": {
+          "items": [
+            "minecraft:dye:15"
+          ]
+         } 
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 5
+
+            }
+          },
+         "item": {
+          "items": [
+            "botania:fertilizer:0"
+          ]
+         } 
+        },        
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+          "items": [
+            "minecraft:wheat_seeds",
+            "actuallyadditions:item_coffee_seed",
+            "actuallyadditions:item_canola_seed",
+            "actuallyadditions:item_rice_seed",
+            "immersiveengineering:seed"
+          ]
+        }
+      },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
             }
           }
         }

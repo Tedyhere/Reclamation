@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "match": {
+        "block": {
+          "drops": [
+            "biomesoplenty:log_4:5"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:coal:1"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+

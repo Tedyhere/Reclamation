@@ -20,7 +20,7 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
+<Recipes useDefault="false">
 	<Recipe timeRequired="300" power ="20">
 		<input>
 			<oreDict>ingotTitaniumAluminide</oreDict>
@@ -58,7 +58,7 @@
 			<oreDict>ingotSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 6</itemStack>
+			<itemStack>immersiveengineering:material 2 2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -74,7 +74,15 @@
 			<oreDict>ingotIron</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 1</itemStack>
+			<itemStack>immersiveengineering:material 2 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="100">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 2 3</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

@@ -1,0 +1,6 @@
+
+{
+  "Name": "caravaner.villager",
+  "Registry ID": "caravans:caravaner.villager",
+  "Class": "primetoxinz.caravans.common.entity.types.EntityVillagerCaravaneer"
+}

@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "match": {
+        "block": {
+          "drops": [
+            "contenttweaker:slate"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 100
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,16 @@
-�e# Add Your ChangeLog to �c'changelog.txt'�r in the config files
+§40.1.13§f
+§c---------------------------------------§f
+§a+ Unified Rod Recipes
+§a+ Edited Immersive Engineering Recipes for:
+	§aCapacitors
+	§alv Wires
+	§aFluid Pipes
+	§aConveryers
+	§aMore I probably forgot about!
 
-You can use Minecrafts �9Color �2Codes �6to�r �nmake your changlogs look Good.
+§a+ Added a couple of Quests.
+§a+ Performed various Script Clean up operations.
+
+§40.1.12
+§c-----------------------------------------
+§a+ Modified many Recipes... Enjoy!

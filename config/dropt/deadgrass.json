@@ -1,0 +1,101 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:plant_0:14",
+            "biomesoplenty:plant_0:13"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+
+            }
+          },
+         "item": {
+          "items": [
+            "minecraft:dye:15"
+          ]
+         } 
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+
+            }
+          },
+         "item": {
+          "items": [
+            "botania:fertilizer:0"
+          ]
+         } 
+        },        
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+          "items": [
+            "minecraft:wheat_seeds",
+            "actuallyadditions:item_coffee_seed",
+            "actuallyadditions:item_canola_seed",
+            "actuallyadditions:item_rice_seed",
+            "actuallyadditions:item_flax_seed",
+            "immersiveengineering:seed"
+          ]
+        }
+      },
+        {
+          "selector": {
+            "weight": {
+              "value": 86
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:leaves_1:9"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+
+            }
+          },
+         "item": {
+          "items": [
+            "integrateddynamics:menril_sapling"
+          ]
+         }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 96
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -10,17 +10,17 @@
         "harvester": {
           "heldItemMainHand": {
             "items": [
-              "contenttweaker:bushwhacker"
+              "contenttweaker:bushwhacker:*"
             ]
           }
         }
       },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "replaceStrategy": "ADD",
       "drops": [
         {
           "selector": {
             "weight": {
-              "value": 5
+              "value": 2
             }
           },
           "item": {
@@ -33,7 +33,7 @@
         {
           "selector": {
             "weight": {
-              "value": 95
+              "value": 98
             }
           }
         }

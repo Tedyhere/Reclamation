@@ -8,7 +8,7 @@
             <orbitalDistance>75</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>25</atmosphereDensity>
+            <atmosphereDensity>15</atmosphereDensity>
             <planet name="Luna" DIMID="3">
                 <isKnown>false</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
@@ -19,6 +19,10 @@
                 <rotationalPeriod>128000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
                 <biomeIds>186</biomeIds>
+                <OreGen>
+                    <ore block="minecraft:iron_ore" minHeight="40" maxHeight="80" clumpSize="8" chancePerChunk="32" />
+                    <ore block="thermalfoundation:ore" meta="5" minHeight="20" maxHeight="60" clumpSize="5" chancePerChunk="24" />
+                </OreGen>
             </planet>
         </planet>
         <planet name="Mars" DIMID="16">
@@ -31,6 +35,12 @@
             <rotationalPeriod>18031</rotationalPeriod>
             <atmosphereDensity>72</atmosphereDensity>
             <biomeIds>114,117,24,69,60</biomeIds>
+            <OreGen>
+                <ore block="thermalfoundation:ore" minHeight="20" maxHeight="80" clumpSize="16" chancePerChunk="64" />
+                <ore block="thermalfoundation:ore" meta="1" minHeight="40" maxHeight="80" clumpSize="12" chancePerChunk="64" />
+                <ore block="thermalfoundation:ore" meta="2" minHeight="20" maxHeight="50" clumpSize="5" chancePerChunk="16" />
+                <ore block="thermalfoundation:ore" meta="3" minHeight="20" maxHeight="50" clumpSize="5" chancePerChunk="16" />
+            </OreGen>
                 <planet name="Phobos" DIMID="1051">
                 <isKnown>false</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
@@ -41,6 +51,11 @@
                 <rotationalPeriod>11997</rotationalPeriod>
                 <atmosphereDensity>155</atmosphereDensity>
                 <biomeIds>188</biomeIds>
+                <OreGen>
+                    <ore block="minecraft:iron_ore" minHeight="40" maxHeight="80" clumpSize="8" chancePerChunk="32" />
+                    <ore block="minecraft:gold_ore" minHeight="12" maxHeight="38" clumpSize="5" chancePerChunk="16" />
+                    <ore block="minecraft:redstone_ore" minHeight="8" maxHeight="16" clumpSize="6" chancePerChunk="24" />
+                </OreGen>
             </planet>
             <planet name="Deimos" DIMID="1052">
                 <isKnown>false</isKnown>
@@ -52,22 +67,15 @@
                 <rotationalPeriod>11997</rotationalPeriod>
                 <atmosphereDensity>155</atmosphereDensity>
                 <biomeIds>188</biomeIds>
+                <OreGen>
+                    <ore block="minecraft:lapis_ore" minHeight="40" maxHeight="80" clumpSize="8" chancePerChunk="32" />
+                    <ore block="minecraft:gold_ore" minHeight="12" maxHeight="38" clumpSize="5" chancePerChunk="16" />
+                    <ore block="minecraft:diamond_ore" minHeight="8" maxHeight="16" clumpSize="6" chancePerChunk="12" />
+                </OreGen>
             </planet>
         </planet>
-        <planet name="Saturn" DIMID="19">
+        <planet name="Mercury" DIMID="4">
             <isKnown>false</isKnown>
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>0.8,0.6596607,0.11383283</skyColor>
-            <gravitationalMultiplier>126</gravitationalMultiplier>
-            <orbitalDistance>90</orbitalDistance>
-            <orbitalPhi>-2</orbitalPhi>
-            <rotationalPeriod>11997</rotationalPeriod>
-            <atmosphereDensity>155</atmosphereDensity>
-            <biomeIds>188</biomeIds>
-        </planet>
-        <planet name="Mercery" DIMID="4">
-            <isKnown>false</isKnown>
-            <GasGiant>true</GasGiant>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
@@ -75,6 +83,10 @@
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>160</atmosphereDensity>
+            <biomeIds>188</biomeIds>
+            <OreGen>
+                <ore block="libvulpes:ore0" meta="8" minHeight="12" maxHeight="80" clumpSize="2" chancePerChunk="8" />
+            </OreGen>
         </planet>
         <planet name="Venus" DIMID="20">
             <isKnown>false</isKnown>
@@ -86,9 +98,17 @@
             <rotationalPeriod>25499</rotationalPeriod>
             <atmosphereDensity>110</atmosphereDensity>
             <biomeIds>188</biomeIds>
+            <OreGen>
+                <ore block="minecraft:gold_ore" minHeight="12" maxHeight="38" clumpSize="5" chancePerChunk="16" />
+                <ore block="minecraft:diamond_ore" minHeight="8" maxHeight="16" clumpSize="6" chancePerChunk="24" />
+                </OreGen>
         </planet>
-        <planet name="Jupiter" DIMID="21">
+        <planet name="Jupiter" DIMID="21" customIcon="gasgiantred">
             <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>oxygen</gas>
+            <gas>nitrogen</gas>
+            <gas>hydrogen</gas>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.5878742,0.89389074,1.0</skyColor>
             <gravitationalMultiplier>104</gravitationalMultiplier>
@@ -96,10 +116,29 @@
             <orbitalPhi>-3</orbitalPhi>
             <rotationalPeriod>20150</rotationalPeriod>
             <atmosphereDensity>58</atmosphereDensity>
-            <biomeIds>76,20,87,195,135</biomeIds>
+            <planet name="Titan" DIMID="80">
+                <isKnown>false</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>0.8,0.6596607,0.11383283</skyColor>
+                <gravitationalMultiplier>126</gravitationalMultiplier>
+                <orbitalDistance>90</orbitalDistance>
+                <orbitalPhi>-2</orbitalPhi>
+                <rotationalPeriod>11997</rotationalPeriod>
+                <atmosphereDensity>155</atmosphereDensity>
+                <biomeIds>188</biomeIds>
+                <OreGen>
+                    <ore block="minecraft:iron_ore" minHeight="40" maxHeight="80" clumpSize="8" chancePerChunk="32" />
+                    <ore block="minecraft:gold_ore" minHeight="12" maxHeight="38" clumpSize="5" chancePerChunk="16" />
+                    <ore block="minecraft:redstone_ore" minHeight="8" maxHeight="16" clumpSize="6" chancePerChunk="24" />
+                </OreGen>
+            </planet>
         </planet>
-        <planet name="Saturn" DIMID="22">
+        <planet name="Saturn" DIMID="22" customIcon="gasgiantred">
             <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>oxygen</gas>
+            <gas>nitrogen</gas>
+            <gas>hydrogen</gas>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.7824364,0.25267386</skyColor>
             <gravitationalMultiplier>130</gravitationalMultiplier>
@@ -108,7 +147,6 @@
             <rotationalPeriod>10923</rotationalPeriod>
             <atmosphereDensity>144</atmosphereDensity>
             <hasRings>true</hasRings>
-            <biomeIds>141,44,22,147,149,192,190</biomeIds>
             <planet name="Sol-22: 0" DIMID="23">
                 <isKnown>false</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
@@ -143,8 +181,11 @@
                 <biomeIds>149,125,34,91,136</biomeIds>
             </planet>
         </planet>
-        <planet name="Uranus" DIMID="26">
+        <planet name="Uranus" DIMID="26" customIcon="gasgiantblue">
             <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <hasRings>true</hasRings>
+            <gas>hydrogen</gas>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.5622388,0.620012</skyColor>
             <gravitationalMultiplier>112</gravitationalMultiplier>
@@ -152,10 +193,12 @@
             <orbitalPhi>-3</orbitalPhi>
             <rotationalPeriod>17082</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
-            <biomeIds>183,36,75,149,0</biomeIds>
         </planet>
-        <planet name="Neptune" DIMID="12">
+        <planet name="Neptune" DIMID="12" customIcon="gasgiantblue">
             <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>nitrogen</gas>
+            <gas>hydrogen</gas>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>0.8,0.85336864,0.0</skyColor>
             <gravitationalMultiplier>95</gravitationalMultiplier>
@@ -163,7 +206,6 @@
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>27992</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
-            <biomeIds>188</biomeIds>
         </planet>
         <planet name="Pluto" DIMID="15" customIcon="IceWorld">
             <isKnown>false</isKnown>
@@ -178,17 +220,6 @@
         </planet>
     </star>
     <star name="Fandom" temp="10" x="300" y="-200" size="1.0" numPlanets="0" numGasGiants="0">
-        <planet name="Transsexual" DIMID="32">
-            <isKnown>false</isKnown>
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>0.8,0.8479778,0.0</skyColor>
-            <gravitationalMultiplier>98</gravitationalMultiplier>
-            <orbitalDistance>58</orbitalDistance>
-            <orbitalPhi>2</orbitalPhi>
-            <rotationalPeriod>25499</rotationalPeriod>
-            <atmosphereDensity>195</atmosphereDensity>
-            <biomeIds>188</biomeIds>
-        </planet>
         <planet name="Gallifrey" DIMID="33">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>

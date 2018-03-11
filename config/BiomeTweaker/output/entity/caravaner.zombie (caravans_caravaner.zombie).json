@@ -1,0 +1,6 @@
+
+{
+  "Name": "caravaner.zombie",
+  "Registry ID": "caravans:caravaner.zombie",
+  "Class": "primetoxinz.caravans.common.entity.types.EntityZombieCaravaneer"
+}

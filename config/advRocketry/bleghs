@@ -1,0 +1,393 @@
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[200:crafttweaker]: variables.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[100:crafttweaker]: base.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: advancedrocketry.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: beginningsurvival.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: botania.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: calculator.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: centrifuge.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: customitems.zs}
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gears.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: ie.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: squeezer.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: testartisan.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 360ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Loading scripts
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[200:crafttweaker]: variables.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[100:crafttweaker]: base.zs}
+[INITIALIZATION][CLIENT][INFO] Adding tile.contenttweaker.dead_planks.name to ore dictionary entry plankWood
+[INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:bushwhacker>: Used to clear brush, leaves, grass. Might yield certain useful items from them.
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: advancedrocketry.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: beginningsurvival.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: botania.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: calculator.zs}
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Setting max stack size of  Circuit to 64
+[INITIALIZATION][CLIENT][INFO] Removing Calculator recipe ([sonar.core.recipes.RecipeOreStack@477786bd, sonar.core.recipes.RecipeOreStack@404aa89a] = [sonar.core.recipes.RecipeItemStack@48833c02])
+[INITIALIZATION][CLIENT][INFO] Removing Calculator recipe ([sonar.core.recipes.RecipeOreStack@71b21db6, sonar.core.recipes.RecipeOreStack@a8b2f53] = [sonar.core.recipes.RecipeItemStack@1f9048e0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xic2.ingot@2, 1xitem.for.ingot_copper@0, 1xitem.thermalfoundation.material@128, 1xitem.ingot@4, 1xitem.immersiveengineering.metal@0], [1xitem.ingotGold@0]] = [1xitem.contenttweaker.flux@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xtile.log@32767, 1xtile.log@32767, 1xtile.for.logs.0@32767, 1xtile.for.logs.1@32767, 1xtile.for.logs.2@32767, 1xtile.for.logs.3@32767, 1xtile.for.logs.4@32767, 1xtile.for.logs.5@32767, 1xtile.for.logs.6@32767, 1xtile.for.logs.7@32767, 1xtile.for.logs.fireproof.0@32767, 1xtile.for.logs.fireproof.1@32767, 1xtile.for.logs.fireproof.2@32767, 1xtile.for.logs.fireproof.3@32767, 1xtile.for.logs.fireproof.4@32767, 1xtile.for.logs.fireproof.5@32767, 1xtile.for.logs.fireproof.6@32767, 1xtile.for.logs.fireproof.7@32767, 1xtile.for.logs.vanilla.fireproof.0@32767, 1xtile.for.logs.vanilla.fireproof.1@32767, 1xtile.logs.0@32767, 1xtile.logs.1@32767, 1xtile.logs.2@32767, 1xtile.logs.3@32767, 1xtile.logs.4@32767, 1xtile.logs.5@32767, 1xtile.logs.6@32767, 1xtile.logs.7@32767, 1xtile.logs.8@32767, 1xtile.logs.9@32767, 1xtile.logs.fireproof.0@32767, 1xtile.logs.fireproof.1@32767, 1xtile.logs.fireproof.2@32767, 1xtile.logs.fireproof.3@32767, 1xtile.logs.fireproof.4@32767, 1xtile.logs.fireproof.5@32767, 1xtile.logs.fireproof.6@32767, 1xtile.logs.fireproof.7@32767, 1xtile.logs.fireproof.8@32767, 1xtile.logs.fireproof.9@32767, 1xtile.log_0@4, 1xtile.log_0@5, 1xtile.log_0@6, 1xtile.log_0@7, 1xtile.log_1@4, 1xtile.log_1@5, 1xtile.log_1@6, 1xtile.log_1@7, 1xtile.log_2@4, 1xtile.log_2@5, 1xtile.log_2@6, 1xtile.log_2@7, 1xtile.log_3@4, 1xtile.log_3@5, 1xtile.log_3@6, 1xtile.log_3@7, 1xtile.log_4@4, 1xtile.log_4@5, 1xtile.blocks.integrateddynamics.menril_log@0, 1xtile.blocks.integrateddynamics.menril_log_filled@0], [1xtile.stonebrick@0, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@10, 1xtile.chisel.cobblestone@11, 1xtile.chisel.cobblestone@12, 1xtile.chisel.cobblestone@13, 1xtile.chisel.cobblestone@14, 1xtile.chisel.cobblestone@15, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9]] = [1xitem.flint@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([1xitem.flint@0, [1xtile.stonebrick@0, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@10, 1xtile.chisel.cobblestone@11, 1xtile.chisel.cobblestone@12, 1xtile.chisel.cobblestone@13, 1xtile.chisel.cobblestone@14, 1xtile.chisel.cobblestone@15, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9]] = [1xtile.gravel@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xtile.gravel@0], 1xitem.flint@0] = [1xtile.sand@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xtile.stonebrick@0, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@10, 1xtile.chisel.cobblestone@11, 1xtile.chisel.cobblestone@12, 1xtile.chisel.cobblestone@13, 1xtile.chisel.cobblestone@14, 1xtile.chisel.cobblestone@15, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9], [1xitem.stick@0, 1xtile.bamboo@0, 1xtile.plant_1@5]] = [1xitem.contenttweaker.reinforced_stick@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xtile.stonebrick@0, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@10, 1xtile.chisel.cobblestone@11, 1xtile.chisel.cobblestone@12, 1xtile.chisel.cobblestone@13, 1xtile.chisel.cobblestone@14, 1xtile.chisel.cobblestone@15, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9], [1xtile.wood@32767, 1xtile.for.planks.0@32767, 1xtile.for.planks.1@32767, 1xtile.for.planks.fireproof.0@32767, 1xtile.for.planks.fireproof.1@32767, 1xtile.for.planks.vanilla.fireproof.0@32767, 1xtile.planks.0@32767, 1xtile.planks.1@32767, 1xtile.planks.2@32767, 1xtile.planks.fireproof.0@32767, 1xtile.planks.fireproof.1@32767, 1xtile.planks.fireproof.2@32767, 1xtile.planks_0@0, 1xtile.planks_0@1, 1xtile.planks_0@2, 1xtile.planks_0@3, 1xtile.planks_0@4, 1xtile.planks_0@5, 1xtile.planks_0@6, 1xtile.planks_0@7, 1xtile.planks_0@8, 1xtile.planks_0@9, 1xtile.planks_0@10, 1xtile.planks_0@11, 1xtile.planks_0@12, 1xtile.planks_0@13, 1xtile.planks_0@14, 1xtile.planks_0@15, 1xtile.chisel.planks-oak@0, 1xtile.chisel.planks-oak@1, 1xtile.chisel.planks-oak@2, 1xtile.chisel.planks-oak@3, 1xtile.chisel.planks-oak@4, 1xtile.chisel.planks-oak@5, 1xtile.chisel.planks-oak@6, 1xtile.chisel.planks-oak@7, 1xtile.chisel.planks-oak@8, 1xtile.chisel.planks-oak@9, 1xtile.chisel.planks-oak@10, 1xtile.chisel.planks-oak@11, 1xtile.chisel.planks-oak@12, 1xtile.chisel.planks-oak@13, 1xtile.chisel.planks-oak@14, 1xtile.chisel.planks-spruce@0, 1xtile.chisel.planks-spruce@1, 1xtile.chisel.planks-spruce@2, 1xtile.chisel.planks-spruce@3, 1xtile.chisel.planks-spruce@4, 1xtile.chisel.planks-spruce@5, 1xtile.chisel.planks-spruce@6, 1xtile.chisel.planks-spruce@7, 1xtile.chisel.planks-spruce@8, 1xtile.chisel.planks-spruce@9, 1xtile.chisel.planks-spruce@10, 1xtile.chisel.planks-spruce@11, 1xtile.chisel.planks-spruce@12, 1xtile.chisel.planks-spruce@13, 1xtile.chisel.planks-spruce@14, 1xtile.chisel.planks-birch@0, 1xtile.chisel.planks-birch@1, 1xtile.chisel.planks-birch@2, 1xtile.chisel.planks-birch@3, 1xtile.chisel.planks-birch@4, 1xtile.chisel.planks-birch@5, 1xtile.chisel.planks-birch@6, 1xtile.chisel.planks-birch@7, 1xtile.chisel.planks-birch@8, 1xtile.chisel.planks-birch@9, 1xtile.chisel.planks-birch@10, 1xtile.chisel.planks-birch@11, 1xtile.chisel.planks-birch@12, 1xtile.chisel.planks-birch@13, 1xtile.chisel.planks-birch@14, 1xtile.chisel.planks-jungle@0, 1xtile.chisel.planks-jungle@1, 1xtile.chisel.planks-jungle@2, 1xtile.chisel.planks-jungle@3, 1xtile.chisel.planks-jungle@4, 1xtile.chisel.planks-jungle@5, 1xtile.chisel.planks-jungle@6, 1xtile.chisel.planks-jungle@7, 1xtile.chisel.planks-jungle@8, 1xtile.chisel.planks-jungle@9, 1xtile.chisel.planks-jungle@10, 1xtile.chisel.planks-jungle@11, 1xtile.chisel.planks-jungle@12, 1xtile.chisel.planks-jungle@13, 1xtile.chisel.planks-jungle@14, 1xtile.chisel.planks-acacia@0, 1xtile.chisel.planks-acacia@1, 1xtile.chisel.planks-acacia@2, 1xtile.chisel.planks-acacia@3, 1xtile.chisel.planks-acacia@4, 1xtile.chisel.planks-acacia@5, 1xtile.chisel.planks-acacia@6, 1xtile.chisel.planks-acacia@7, 1xtile.chisel.planks-acacia@8, 1xtile.chisel.planks-acacia@9, 1xtile.chisel.planks-acacia@10, 1xtile.chisel.planks-acacia@11, 1xtile.chisel.planks-acacia@12, 1xtile.chisel.planks-acacia@13, 1xtile.chisel.planks-acacia@14, 1xtile.chisel.planks-dark-oak@0, 1xtile.chisel.planks-dark-oak@1, 1xtile.chisel.planks-dark-oak@2, 1xtile.chisel.planks-dark-oak@3, 1xtile.chisel.planks-dark-oak@4, 1xtile.chisel.planks-dark-oak@5, 1xtile.chisel.planks-dark-oak@6, 1xtile.chisel.planks-dark-oak@7, 1xtile.chisel.planks-dark-oak@8, 1xtile.chisel.planks-dark-oak@9, 1xtile.chisel.planks-dark-oak@10, 1xtile.chisel.planks-dark-oak@11, 1xtile.chisel.planks-dark-oak@12, 1xtile.chisel.planks-dark-oak@13, 1xtile.chisel.planks-dark-oak@14, 1xtile.blocks.integrateddynamics.menril_planks@0, 1xtile.contenttweaker.dead_planks@0]] = [1xtile.contenttweaker.reinforced_planks@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([1xitem.flint@0, 1xtile.ReinforcedStoneBlock@0] = [1xitem.contenttweaker.reinforced_flint@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([1xitem.ReinforcedIronIngot@0, 1xitem.contenttweaker.reinforced_flint@0] = [1xitem.contenttweaker.hardened_flint@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([1xitem.contenttweaker.hardened_flint@0, 1xitem.contenttweaker.flux@0] = [1xitem.contenttweaker.fluxed_flint@0])
+[INITIALIZATION][CLIENT][INFO] Adding Calculator recipe ([[1xtile.stone@0, 1xtile.chisel.stonebrick@0, 1xtile.chisel.stonebrick@1, 1xtile.chisel.stonebrick@2, 1xtile.chisel.stonebrick@3, 1xtile.chisel.stonebrick@4, 1xtile.chisel.stonebrick@5, 1xtile.chisel.stonebrick@6, 1xtile.chisel.stonebrick@7, 1xtile.chisel.stonebrick@8, 1xtile.chisel.stonebrick@9, 1xtile.chisel.stonebrick@10, 1xtile.chisel.stonebrick@11, 1xtile.chisel.stonebrick@12, 1xtile.chisel.stonebrick@13, 1xtile.chisel.stonebrick@14, 1xtile.chisel.stonebrick@15, 1xtile.chisel.stonebrick@0, 1xtile.chisel.stonebrick@1, 1xtile.chisel.stonebrick@2, 1xtile.chisel.stonebrick@3, 1xtile.chisel.stonebrick@4, 1xtile.chisel.stonebrick@5, 1xtile.chisel.stonebrick@6, 1xtile.chisel.stonebrick@7, 1xtile.chisel.stonebrick@8, 1xtile.chisel.stonebrick@9, 1xtile.chisel.stonebrick@0, 1xtile.chisel.stonebrick@1, 1xtile.chisel.stonebrick@2, 1xtile.chisel.stonebrick@3, 1xtile.chisel.stonebrick@4, 1xtile.chisel.stonebrick@5, 1xtile.chisel.stonebrick@6, 1xtile.chisel.stonebrick@7], [1xtile.log@32767, 1xtile.log@32767, 1xtile.for.logs.0@32767, 1xtile.for.logs.1@32767, 1xtile.for.logs.2@32767, 1xtile.for.logs.3@32767, 1xtile.for.logs.4@32767, 1xtile.for.logs.5@32767, 1xtile.for.logs.6@32767, 1xtile.for.logs.7@32767, 1xtile.for.logs.fireproof.0@32767, 1xtile.for.logs.fireproof.1@32767, 1xtile.for.logs.fireproof.2@32767, 1xtile.for.logs.fireproof.3@32767, 1xtile.for.logs.fireproof.4@32767, 1xtile.for.logs.fireproof.5@32767, 1xtile.for.logs.fireproof.6@32767, 1xtile.for.logs.fireproof.7@32767, 1xtile.for.logs.vanilla.fireproof.0@32767, 1xtile.for.logs.vanilla.fireproof.1@32767, 1xtile.logs.0@32767, 1xtile.logs.1@32767, 1xtile.logs.2@32767, 1xtile.logs.3@32767, 1xtile.logs.4@32767, 1xtile.logs.5@32767, 1xtile.logs.6@32767, 1xtile.logs.7@32767, 1xtile.logs.8@32767, 1xtile.logs.9@32767, 1xtile.logs.fireproof.0@32767, 1xtile.logs.fireproof.1@32767, 1xtile.logs.fireproof.2@32767, 1xtile.logs.fireproof.3@32767, 1xtile.logs.fireproof.4@32767, 1xtile.logs.fireproof.5@32767, 1xtile.logs.fireproof.6@32767, 1xtile.logs.fireproof.7@32767, 1xtile.logs.fireproof.8@32767, 1xtile.logs.fireproof.9@32767, 1xtile.log_0@4, 1xtile.log_0@5, 1xtile.log_0@6, 1xtile.log_0@7, 1xtile.log_1@4, 1xtile.log_1@5, 1xtile.log_1@6, 1xtile.log_1@7, 1xtile.log_2@4, 1xtile.log_2@5, 1xtile.log_2@6, 1xtile.log_2@7, 1xtile.log_3@4, 1xtile.log_3@5, 1xtile.log_3@6, 1xtile.log_3@7, 1xtile.log_4@4, 1xtile.log_4@5, 1xtile.blocks.integrateddynamics.menril_log@0, 1xtile.blocks.integrateddynamics.menril_log_filled@0]] = [1xtile.ReinforcedStoneBlock@0])
+[INITIALIZATION][CLIENT][INFO] Adding Scientific recipe ([1xitem.gendustry.honey_comb@27, 1xitem.for.bee_princess_ge@0] = [1xitem.for.bee_princess_ge@0])
+[INITIALIZATION][CLIENT][INFO] Adding Scientific recipe ([1xitem.gendustry.honey_comb@28, 1xitem.for.bee_princess_ge@0] = [1xitem.for.bee_princess_ge@0])
+[INITIALIZATION][CLIENT][INFO] Adding Scientific recipe ([1xitem.gendustry.honey_comb@29, 1xitem.for.bee_princess_ge@0] = [1xitem.for.bee_princess_ge@0])
+[INITIALIZATION][CLIENT][INFO] Adding Scientific recipe ([1xitem.gendustry.honey_comb@30, 1xitem.for.bee_princess_ge@0] = [1xitem.for.bee_princess_ge@0])
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: centrifuge.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: customitems.zs} as we are currently loading with a different loader
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gears.zs}
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Iron Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Copper Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Tin Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Gold Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Titanium Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Platinum Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Silver Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Lead Gear
+[INITIALIZATION][CLIENT][INFO] Adding Metal Press Recipe for Nickel Gear
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ie.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: squeezer.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: testartisan.zs}
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 353ms
+[POSTINITIALIZATION][CLIENT][INFO] null
+[POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <sonarcore:reinforcedstoneblock>
+[POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <ore:ironPlate>
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Gravelsand with name ct_shapeless1039050352
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blacksmith's Worktable with name ct_shaped1663697645
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blacksmith's Workstation with name ct_shaped-1868590728
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Carpenter's Worktable with name ct_shaped-1663914622
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chemist's Worktable with name ct_shaped390791395
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Ore with name ct_shaped-1873170047
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Ore with name ct_shaped306422732
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tin Ore with name ct_shaped-1598199767
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Ore with name ct_shaped1693362890
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead Ore with name ct_shaped43172228
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gold Ore with name ct_shaped821362009
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compressed Cobblestone with name ct_shaped-790725604
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Double Compressed Cobblestone with name ct_shaped-877215631
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compressed Gravel with name ct_shaped-466993576
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Double Compressed Gravel with name ct_shaped1713886847
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compressed Dirt with name ct_shaped-244470136
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Double Compressed Dirt with name ct_shaped-2111025221
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compressed Sand with name ct_shaped-2098541703
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Double Compressed Sand with name ct_shaped1215121067
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reinforced Comb with name ct_shaped152455568
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sandy Comb with name ct_shaped-805015891
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Besmirched Comb with name ct_shaped-1964845512
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gravelly Comb with name ct_shaped-2062634070
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for tile.contenttweaker.dead_planks.name with name ct_shapeless1161110465
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bushwhacker with name ct_shaped-1668971798
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iron Plate with name ct_shaped1678407626
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gold Plate with name ct_shaped1328555162
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Plate with name ct_shaped-822995348
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tin Plate with name ct_shaped-1478242711
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Silver Plate with name ct_shaped-644479786
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lead Plate with name ct_shaped-500841197
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Aluminum Plate with name ct_shaped-336394072
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nickel Plate with name ct_shaped342760266
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Platinum Plate with name ct_shaped-585188916
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Iridium Plate with name ct_shaped2146440332
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Infused Plate with name ct_shaped-326699273
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mana Infused Plate with name ct_shaped-189449075
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Plate with name ct_shaped-740161814
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Electrum Plate with name ct_shaped-289255425
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Invar Plate with name ct_shaped-1824085353
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bronze Plate with name ct_shaped-17269744
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Constantan Plate with name ct_shaped-1653451974
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Signalum Plate with name ct_shaped-1877232050
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Lumium Plate with name ct_shaped223872468
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enderium Plate with name ct_shaped1889167558
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bushwhacker with name ct_shaped-1728829523
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Control Circuit Board with name ct_shaped-1270741660
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Item IO Circuit Board with name ct_shaped1245321144
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Liquid IO Circuit Board with name ct_shaped-1998189269
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Atmosphere Terraformer with name ct_shaped-1195605864
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Hoe Head with name ct_shaped2072313254
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Crossguard with name ct_shaped-1909195905
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Pickaxe Head with name ct_shaped864982201
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Axe Head with name ct_shaped1179005764
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Shovel Head with name ct_shaped-1298034696
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flint Sword Blade with name ct_shaped1439038230
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint Hoe with name ct_shapeless1479018217
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint Axe with name ct_shapeless1681542828
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint Pickaxe with name ct_shapeless-503133690
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint Shovel with name ct_shapeless1655151822
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint Sword with name ct_shapeless-1281530067
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Engineer's Hammer with name ct_shaped-680293329
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Windmill Blade with name ct_shaped1324020134
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Windmill with name ct_shaped907545936
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for LV Wire Connector with name ct_shaped-1438339007
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "mason"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "carpenter"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "blacksmith"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "chemist"
+[POSTINITIALIZATION][CLIENT][INFO] Altering RecipeWorktable Recipe(s) for "engineer"
+[POSTINITIALIZATION][CLIENT][INFO] Loading scripts
+[POSTINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <minecraft:dye:4> in mode: PRESS
+[AVAILABLE][CLIENT][INFO] Attempting to remove Pure Daisy recipe for [<minecraft:cobblestone>]
+[AVAILABLE][CLIENT][INFO] Removing 1 Botania PureDaisy Recipe(s) for <minecraft:cobblestone>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <extrabees:honey_comb:15>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <minecraft:gold_ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <thermalfoundation:ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <minecraft:iron_ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <thermalfoundation:ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <thermalfoundation:ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <thermalfoundation:ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <minecraft:redstone_ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <minecraft:coal_ore>
+[AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <minecraft:lapis_ore>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <gendustry:honey_comb:27>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <gendustry:honey_comb:28>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <gendustry:honey_comb:29>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <gendustry:honey_comb:30>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <gendustry:honey_comb:27>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <gendustry:honey_comb:28>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <gendustry:honey_comb:29>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <gendustry:honey_comb:30>
+[AVAILABLE][CLIENT][INFO] Altering Centrifuge Recipe(s) for <extrabees:honey_comb:15>
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:24> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:256> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:257> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <libvulpes:productgear:7> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:262> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:25> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:258> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:261> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <thermalfoundation:material:259> in mode: GEAR
+[AVAILABLE][CLIENT][INFO] Altering Forestry Squeezer Recipe(s) for <liquid:meat> * 10
+[SERVER_STARTED][CLIENT][INFO] Fixed the RecipeBook
+Entities:
+advancedrocketry:arabducteditem -- ARAbductedItem
+advancedrocketry:arplanetuibutton -- ARPlanetUIButton
+advancedrocketry:arplanetuiitem -- ARPlanetUIItem
+advancedrocketry:arspaceelevatorcapsule -- ARSpaceElevatorCapsule
+advancedrocketry:arstaruibutton -- ARStarUIButton
+advancedrocketry:deployedrocket -- deployedRocket
+advancedrocketry:lasernode -- laserNode
+advancedrocketry:mountdummy -- mountDummy
+advancedrocketry:rocket -- rocket
+appliedenergistics2:appeng.entity.entitychargedquartz -- EntityChargedQuartz
+appliedenergistics2:appeng.entity.entitygrowingcrystal -- EntityGrowingCrystal
+appliedenergistics2:appeng.entity.entitysingularity -- EntitySingularity
+appliedenergistics2:appeng.entity.entitytinytntprimed -- EntityTinyTNTPrimed
+biomesoplenty:bop_boat -- bop_boat
+biomesoplenty:mudball -- mudball
+biomesoplenty:pixie -- pixie
+biomesoplenty:wasp -- wasp
+botania:babylon_weapon -- botania:babylonWeapon
+botania:corporea_spark -- botania:corporeaSpark
+botania:doppleganger -- botania:doppleganger
+botania:ender_air_bottle -- botania:enderAirBottle
+botania:falling_star -- botania:fallingStar
+botania:flame_ring -- botania:flameRing
+botania:magic_landmine -- botania:magicLandmine
+botania:magic_missile -- botania:magicMissile
+botania:mana_burst -- botania:manaBurst
+botania:mana_storm -- botania:manaStorm
+botania:pink_wither -- botania:pinkWither
+botania:pixie -- botania:pixie
+botania:player_mover -- botania:playerMover
+botania:pool_minecart -- botania:poolMinecart
+botania:signal_flare -- botania:signalFlare
+botania:spark -- botania:spark
+botania:thorn_chakram -- botania:thornChakram
+botania:thrown_item -- botania:thrownItem
+botania:vine_ball -- botania:vineBall
+calculator:babygrenade -- BabyGrenade
+calculator:grenade -- Grenade
+calculator:soil -- Soil
+calculator:stone -- Stone
+caravans:caravaner.creeper -- caravaner.creeper
+caravans:caravaner.human -- caravaner.human
+caravans:caravaner.skeleton -- caravaner.skeleton
+caravans:caravaner.spider -- caravaner.spider
+caravans:caravaner.villager -- caravaner.villager
+caravans:caravaner.zombie -- caravaner.zombie
+careerbees:beeswarm -- beeswarm
+careerbees:entitychunkdata -- entitychunkdata
+cyberware:cyberzombie -- cyberzombie
+enderzoo:concussioncreeper -- concussioncreeper
+enderzoo:direslime -- direslime
+enderzoo:direwolf -- direwolf
+enderzoo:enderminy -- enderminy
+enderzoo:entityowlegg -- EntityOwlEgg
+enderzoo:entityprimedcharge -- EntityPrimedCharge
+enderzoo:fallenknight -- fallenknight
+enderzoo:fallenmount -- fallenmount
+enderzoo:owl -- owl
+enderzoo:withercat -- withercat
+enderzoo:witherwitch -- witherwitch
+fluxnetworks:flux -- Flux
+ic2:carbon_boat -- BoatCarbon
+ic2:dynamite -- Dynamite
+ic2:electric_boat -- BoatElectric
+ic2:fireproof_item -- FireproofItem
+ic2:itnt -- Itnt
+ic2:mining_laser -- MiningLaser
+ic2:nuke -- Nuke
+ic2:particle -- Particle
+ic2:rubber_boat -- BoatRubber
+ic2:sticky_dynamite -- StickyDynamite
+immersivepetroleum:speedboat -- speedboat
+industrialforegoing:pink_slime -- pink_slime
+integrateddynamics:entityitemtargetted -- entityitemtargetted
+minecraft:area_effect_cloud -- AreaEffectCloud
+minecraft:armor_stand -- ArmorStand
+minecraft:arrow -- Arrow
+minecraft:bat -- Bat
+minecraft:blaze -- Blaze
+minecraft:boat -- Boat
+minecraft:cave_spider -- CaveSpider
+minecraft:chest_minecart -- MinecartChest
+minecraft:chicken -- Chicken
+minecraft:commandblock_minecart -- MinecartCommandBlock
+minecraft:cow -- Cow
+minecraft:creeper -- Creeper
+minecraft:donkey -- Donkey
+minecraft:dragon_fireball -- DragonFireball
+minecraft:egg -- ThrownEgg
+minecraft:elder_guardian -- ElderGuardian
+minecraft:ender_crystal -- EnderCrystal
+minecraft:ender_dragon -- EnderDragon
+minecraft:ender_pearl -- ThrownEnderpearl
+minecraft:enderman -- Enderman
+minecraft:endermite -- Endermite
+minecraft:evocation_fangs -- EvocationFangs
+minecraft:evocation_illager -- EvocationIllager
+minecraft:eye_of_ender_signal -- EyeOfEnderSignal
+minecraft:falling_block -- FallingSand
+minecraft:fireball -- Fireball
+minecraft:fireworks_rocket -- FireworksRocketEntity
+minecraft:furnace_minecart -- MinecartFurnace
+minecraft:ghast -- Ghast
+minecraft:giant -- Giant
+minecraft:guardian -- Guardian
+minecraft:hopper_minecart -- MinecartHopper
+minecraft:horse -- Horse
+minecraft:husk -- Husk
+minecraft:illusion_illager -- IllusionIllager
+minecraft:item -- Item
+minecraft:item_frame -- ItemFrame
+minecraft:leash_knot -- LeashKnot
+minecraft:llama -- Llama
+minecraft:llama_spit -- LlamaSpit
+minecraft:magma_cube -- LavaSlime
+minecraft:minecart -- MinecartRideable
+minecraft:mooshroom -- MushroomCow
+minecraft:mule -- Mule
+minecraft:ocelot -- Ozelot
+minecraft:painting -- Painting
+minecraft:parrot -- Parrot
+minecraft:pig -- Pig
+minecraft:polar_bear -- PolarBear
+minecraft:potion -- ThrownPotion
+minecraft:rabbit -- Rabbit
+minecraft:sheep -- Sheep
+minecraft:shulker -- Shulker
+minecraft:shulker_bullet -- ShulkerBullet
+minecraft:silverfish -- Silverfish
+minecraft:skeleton -- Skeleton
+minecraft:skeleton_horse -- SkeletonHorse
+minecraft:slime -- Slime
+minecraft:small_fireball -- SmallFireball
+minecraft:snowball -- Snowball
+minecraft:snowman -- SnowMan
+minecraft:spawner_minecart -- MinecartSpawner
+minecraft:spectral_arrow -- SpectralArrow
+minecraft:spider -- Spider
+minecraft:squid -- Squid
+minecraft:stray -- Stray
+minecraft:tnt -- PrimedTnt
+minecraft:tnt_minecart -- MinecartTNT
+minecraft:vex -- Vex
+minecraft:villager -- Villager
+minecraft:villager_golem -- VillagerGolem
+minecraft:vindication_illager -- VindicationIllager
+minecraft:witch -- Witch
+minecraft:wither -- WitherBoss
+minecraft:wither_skeleton -- WitherSkeleton
+minecraft:wither_skull -- WitherSkull
+minecraft:wolf -- Wolf
+minecraft:xp_bottle -- ThrownExpBottle
+minecraft:xp_orb -- XPOrb
+minecraft:zombie -- Zombie
+minecraft:zombie_horse -- ZombieHorse
+minecraft:zombie_pigman -- PigZombie
+minecraft:zombie_villager -- ZombieVillager
+mysticalagriculture:inferium_arrow -- inferium_arrow
+mysticalagriculture:intermedium_arrow -- intermedium_arrow
+mysticalagriculture:prudentium_arrow -- prudentium_arrow
+mysticalagriculture:superium_arrow -- superium_arrow
+mysticalagriculture:supremium_arrow -- supremium_arrow
+redstonearsenal:flux_arrow -- redstonearsenal.flux_arrow
+stevescarts:cake -- Cake.Vswe
+stevescarts:cart.0 -- Minecart.Vswe.0
+stevescarts:egg -- Egg.Vswe
+thermaldynamics:transport -- transport
+thermalexpansion:florb -- florb
+thermalexpansion:morb -- morb
+thermalfoundation:basalz -- thermalfoundation.basalz
+thermalfoundation:basalz_bolt -- thermalfoundation.basalz_bolt
+thermalfoundation:blitz -- thermalfoundation.blitz
+thermalfoundation:blitz_bolt -- thermalfoundation.blitz_bolt
+thermalfoundation:blizz -- thermalfoundation.blizz
+thermalfoundation:blizz_bolt -- thermalfoundation.blizz_bolt
+toolbox:rock -- rock
+waterworks:firework_rocket_anti_rain -- waterworks:firework_rocket_anti_rain
+waterworks:firework_rocket_rain -- waterworks:firework_rocket_rain
