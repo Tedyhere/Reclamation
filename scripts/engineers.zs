@@ -103,3 +103,69 @@ RecipeBuilder.get("engineer")
 	.addTool(<ore:artisansSpanner>, 2)
 	.addOutput(<immersiveengineering:metal_device0:5>)
 	.create();
+
+RecipeBuilder.get("engineer")
+	.setMaximumTier(1)
+	.setShaped([[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+				[null, <ore:ingotSteel>, null],
+				[<ore:stickSteel>, null, <ore:stickSteel>]])
+	.addTool(<ore:artisansSpanner>, 6)
+	.addOutput(<immersiveengineering:metal_decoration1:1> * 6)
+	.create();
+
+RecipeBuilder.get("engineer")
+	.setMaximumTier(1)
+	.setShaped([[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+				[null, <ore:ingotAluminum>, null],
+				[<ore:stickAluminum>, null, <ore:stickAluminum>]])
+	.addTool(<ore:artisansSpanner>, 6)
+	.addOutput(<immersiveengineering:metal_decoration1:5> * 6)
+	.create();
+
+RecipeBuilder.get("engineer")
+	.setMaximumTier(1)
+	.setShaped([[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+				[null, <ore:ingotIron>, null],
+				[<ore:stickIron>, null, <ore:stickIron>]])
+	.addTool(<ore:artisansSpanner>, 6)
+	.addOutput(<ic2:scaffold:2> * 6)
+	.create();
+
+RecipeBuilder.get("engineer")
+	.setMinimumTier(2)
+	.setShaped([[ironPlate, copperPlate, <immersiveengineering:metal_device1:6>, copperPlate, ironPlate],
+				[ironPlate, copperPlate, <immersiveengineering:metal_device1:6>, copperPlate, ironPlate],
+				[<ore:gearIron>, <immersiveengineering:material:8>, <immersiveengineering:metal_device0:4>, <immersiveengineering:material:8>, <ore:gearIron>],
+				[ironPlate, copperPlate, <immersiveengineering:metal_device1:6>, copperPlate, ironPlate],
+				[ironPlate, copperPlate, <immersiveengineering:metal_device1:6>, copperPlate, ironPlate]])
+	.addTool(<ore:artisansSpanner>, 150)
+	.addTool(<ore:artisansDriver>, 150)
+	.setFluid(<liquid:water> * 16000)
+	.addOutput(<pressure:water_source>)
+	.create();
+
+RecipeBuilder.get("engineer")
+	.setMinimumTier(2)
+	.setShaped([[steelPlate, steelPlate, steelGlass, steelPlate, steelPlate],
+				[steelPlate, steelComponent, electronTube, steelComponent, steelPlate],
+				[steelGlass, steelGear, steelPlate, steelGear, steelGlass],
+				[steelPlate, steelComponent, electronTube, steelComponent, steelPlate],
+				[steelPlate, steelPlate, steelGlass, steelPlate, steelPlate]])
+	.addTool(<ore:artisansSpanner>, 300)
+	.addTool(<ore:artisansDriver>, 300)
+	.setFluid(<liquid:water> * 1000)
+	.addOutput(<thermalexpansion:frame>)
+	.create();
+
+RecipeBuilder.get("engineer")
+	.setMinimumTier(2)
+	.setShaped([[steelPlate, steelPlate, steelPlate, steelPlate, steelPlate],
+				[steelPlate, steelRod, null, steelRod, steelPlate],
+				[steelPlate, null, steelRod, null, steelPlate],
+				[steelPlate, steelRod, null, steelRod, steelPlate],
+				[steelPlate, steelPlate, steelPlate, steelPlate, steelPlate]])
+	.addTool(<ore:artisansSpanner>, 300)
+	.addTool(<ore:artisansDriver>, 300)
+	.setFluid(<liquid:water> * 1000)
+	.addOutput(machineStructure * 16)
+	.create();

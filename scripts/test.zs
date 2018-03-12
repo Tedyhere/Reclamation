@@ -1,0 +1,3 @@
+val spaceIronChest = <minecraft:iron_chestplate>.withTag({size: 6, outputItems: [{Slot: 0 as byte, id: "advancedrocketry:pressuretank", Count: 1 as byte, tag: {Fluid: {FluidName: "oxygen", Amount: 3730}}, Damage: 2 as short}, {Slot: 1 as byte, id: "advancedrocketry:pressuretank", Count: 1 as byte, tag: {Fluid: {FluidName: "oxygen", Amount: 4000}}, Damage: 2 as short}]});
+
+recipes.addShapeless(spaceIronChest, [<minecraft:iron_chestplate>, <advancedrocketry:pressuretank>]);

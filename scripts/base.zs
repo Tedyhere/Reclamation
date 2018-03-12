@@ -1,6 +1,8 @@
 #priority 100
 //Base Items
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+val oreSilicon = <ore:itemSilicon>;
 recipes.addShapeless(<contenttweaker:gravelsand>, [<ore:gravel>, <ore:sand>]);
 recipes.removeShapeless(<sonarcore:reinforcedstoneblock>);
 recipes.removeShapeless(<ore:ironPlate>, [<minecraft:iron_ingot>, <immersiveengineering:tool>]);
@@ -16,7 +18,7 @@ recipes.remove(<immersiveengineering:stone_decoration:10>);
 recipes.remove(<botany:misc_ceramic>);
 recipes.remove(<immersiveengineering:stone_decoration>);
 recipes.remove(<immersiveengineering:stone_decoration:1>);
-
+oreSilicon.remove(<libvulpes:productingot:3>);
 
 recipes.addShapeless(<agricraft:agri_seed>, [<minecraft:potato>]);
 recipes.addShapeless(<contenttweaker:onion_seeds>, [<xlfoodmod:onion>]);
@@ -29,6 +31,8 @@ recipes.addShaped(<artisanworktables:worktable:3>, [[ironPlate, ironPlate, ironP
 recipes.addShaped(<artisanworktables:worktable:6>, [[ironPlate, copperPlate, ironPlate], [copperPlate, <ore:stone>, copperPlate], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
 recipes.addShaped(<artisanworktables:workstation:3>, [[<artisanworktables:worktable:3>], [<minecraft:anvil>]]);
 <ore:plankWood>.add(<contenttweaker:dead_planks>);
+recipes.addShaped(<artisanworktables:workstation:6>, [[copperPlate, copperPlate, copperPlate], [<immersiveengineering:material:8>, <artisanworktables:worktable:6>, <immersiveengineering:material:8>], [<immersiveengineering:metal_device1:6>, <minecraft:anvil>, <immersiveengineering:metal_device1:6>]]);
+recipes.addShaped(<artisanworktables:workshop:6>, [[copperPlate, copperPlate, copperPlate], [<immersiveengineering:material:8>, <artisanworktables:workstation:6>, <immersiveengineering:material:8>], [<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>]]);
 
 recipes.addShaped(<artisanworktables:worktable:1>, [
 	[<ore:plankWood>, <ore:logWood>, <ore:plankWood>],
@@ -36,9 +40,9 @@ recipes.addShaped(<artisanworktables:worktable:1>, [
 	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
 
 recipes.addShaped(<artisanworktables:worktable:5>, [
-	[<ore:plankWood>, <minecraft:crafting_table>, <ore:plankWood>],
-	[<ore:plankWood>, <ore:blockGlass>, <ore:plankWood>],
-	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
+	[<ore:plankTreatedWood>, <minecraft:crafting_table>, <ore:plankTreatedWood>],
+	[<ore:plankTreatedWood>, <ore:blockGlass>, <ore:plankTreatedWood>],
+	[<ore:plankTreatedWood>, <ore:stickTreatedWood>, <ore:plankTreatedWood>]]);
 
 recipes.addShaped(<artisanworktables:worktable:9>, [
 	[<sonarcore:reinforcedstoneblock>, <minecraft:crafting_table>, <sonarcore:reinforcedstoneblock>],

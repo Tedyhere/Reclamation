@@ -208,4 +208,13 @@
 			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<oreDict>stickSteel 4</oreDict>
+			<oreDict>plateSteel 4</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:structuremachine</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

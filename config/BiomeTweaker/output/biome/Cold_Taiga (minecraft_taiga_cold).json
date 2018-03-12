@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
     "COLD",
     "CONIFEROUS",
-    "SNOWY"
+    "SNOWY",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -136,22 +136,10 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "crazypants.enderzoo.entity.EntityEnderminy",
-      "Weight": 30,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
       "Entity Class": "crazypants.enderzoo.entity.EntityWitherWitch",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "crazypants.enderzoo.entity.EntityDireWolf",
-      "Weight": 30,
-      "Min Group Count": 2,
-      "Max Group Count": 6
     }
   ],
   "Spawnable Water Creatures": [

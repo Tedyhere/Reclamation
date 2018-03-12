@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
     "COLD",
+    "WASTELAND",
     "SNOWY"
   ],
   "BiomeManager Entries": {},
@@ -105,6 +105,24 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderzoo.entity.EntityEnderminy",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderzoo.entity.EntityFallenKnight",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "crazypants.enderzoo.entity.EntityWitherWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

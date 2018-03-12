@@ -1,7 +1,9 @@
 #priority 200
 import crafttweaker.item.IItemStack;
 
-
+global steelGlass as IItemStack = <mekanism:basicblock:10>;
+global electronTube as IItemStack = <immersiveengineering:material:26>;
+global steelComponent as IItemStack = <immersiveengineering:material:9>;
 global iePipe as IItemStack = <immersiveengineering:metal_device1:6>;
 global ironComp as IItemStack = <immersiveengineering:material:8>;
 global copperCoilBlock as IItemStack = <immersiveengineering:metal_decoration0>;
@@ -115,3 +117,6 @@ global ic2rubber as IItemStack = <ic2:crafting>;
 global forestrybasic as IItemStack = <forestry:chipsets>.withTag({T: 0 as short});
 global chargingrebattery as IItemStack = <ic2:advanced_charging_re_battery:26>.withTag({});
 global redstone as IItemStack = <minecraft:redstone>;
+global steelGear as IItemStack = <thermalfoundation:material:288>;
+global machineStructure as IItemStack = <libvulpes:structuremachine>;
+global steelRod as IItemStack = <immersiveengineering:material:2>;

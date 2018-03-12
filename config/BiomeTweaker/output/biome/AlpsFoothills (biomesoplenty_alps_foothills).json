@@ -14,18 +14,18 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": -0.5,
+  "Temperature": -0.25,
   "Humidity": 0.3,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "FOREST",
-    "MOUNTAIN",
     "DRY",
+    "MOUNTAIN",
     "COLD",
     "SNOWY",
-    "SPARSE"
+    "SPARSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -106,12 +106,6 @@
     {
       "Entity Class": "crazypants.enderzoo.entity.EntityConcussionCreeper",
       "Weight": 40,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "crazypants.enderzoo.entity.EntityEnderminy",
-      "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 3
     },

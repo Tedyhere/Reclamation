@@ -69,3 +69,13 @@ mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:3>, <ore:ingotAluminum>, <immersiveengineering:mold:2>, 1000, 1);
 recipes.remove(<immersiveengineering:material:1>);
 recipes.addShaped(<immersiveengineering:material:1>, [[<ore:ingotIron>], [<ore:ingotIron>], [<ore:ingotIron>]]);
+recipes.removeByRecipeName("immersiveengineering:metal_decoration/steel_scaffolding");
+recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 4, [[steelPlate, steelPlate, steelPlate], [null, <ore:stickSteel>, null], [<ore:stickSteel>, null, <ore:stickSteel>]]);
+recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_scaffolding");
+recipes.addShaped(<immersiveengineering:metal_decoration1:5> *4, [[aluminumPlate, aluminumPlate, aluminumPlate], [null, <ore:stickAluminum>, null], [<ore:stickAluminum>, null, <ore:stickAluminum>]]);
+recipes.removeByRecipeName("ic2:45");
+recipes.addShaped(<ic2:scaffold:2> * 4, [[ironPlate, ironPlate, ironPlate], [null, <ore:stickIron>, null], [<ore:stickIron>, null, <ore:stickIron>]]);
+recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood_scaffolding");
+recipes.addShaped(<immersiveengineering:wooden_decoration:1> * 4, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [null, <ore:stickTreatedWood>, null], [<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
+mods.immersiveengineering.MetalPress.removeRecipe(<libvulpes:productrod:7>);
+mods.immersiveengineering.MetalPress.addRecipe(<libvulpes:productrod:7>, <ore:ingotTitanium>, <immersiveengineering:mold:2>, 1000, 1);

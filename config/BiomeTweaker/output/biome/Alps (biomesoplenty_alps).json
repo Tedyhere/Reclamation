@@ -14,14 +14,14 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": -0.5,
+  "Temperature": -0.25,
   "Humidity": 0.3,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "MOUNTAIN",
     "DRY",
+    "MOUNTAIN",
     "COLD",
     "SNOWY"
   ],

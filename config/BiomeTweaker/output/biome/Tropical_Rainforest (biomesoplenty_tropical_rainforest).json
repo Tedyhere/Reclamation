@@ -14,17 +14,17 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "6160128",
-  "Temperature": 1.2,
+  "Temperature": 1.0,
   "Humidity": 1.0,
   "Water Tint": 6160128,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "DENSE",
-    "JUNGLE",
     "LUSH",
-    "HOT"
+    "JUNGLE",
+    "HOT",
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

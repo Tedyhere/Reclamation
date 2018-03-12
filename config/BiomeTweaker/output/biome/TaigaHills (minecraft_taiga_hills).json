@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "COLD",
+    "CONIFEROUS",
     "HILLS",
-    "CONIFEROUS"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -140,12 +140,6 @@
     {
       "Entity Class": "crazypants.enderzoo.entity.EntityConcussionCreeper",
       "Weight": 40,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "crazypants.enderzoo.entity.EntityEnderminy",
-      "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 3
     },

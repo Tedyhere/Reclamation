@@ -20,23 +20,14 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
-	<Recipe timeRequired="300" power ="20">
+<Recipes useDefault="false">
+	<Recipe timeRequired="150" power ="20">
 		<input>
 			<oreDict>ingotIron</oreDict>
-			<fluidStack>water 100</fluidStack>
+			<fluidStack>plantoil 100</fluidStack>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 1 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="200">
-		<input>
-			<oreDict>plateIron</oreDict>
-			<fluidStack>water 100</fluidStack>
-		</input>
-		<output>
-			<itemStack>libvulpes:productsheet 1 1</itemStack>
+			<itemStack>thermalfoundation:material 2 32</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
